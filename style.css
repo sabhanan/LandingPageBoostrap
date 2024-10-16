@@ -1,0 +1,153 @@
+/* navbar */
+.navbar-custom {
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-brand img {
+    height: 40px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    background-color: white;
+}
+.ab{
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+.w{
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.z{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+
+        /* Fullscreen image styles */.fullscreen-bg {
+position: relative;
+height: 100vh; /* Full height of viewport */
+background-image: url('images7.jpg'); /* Your image URL */
+background-size: cover; /* Cover the entire area */
+background-position: center; /* Center the image */
+background-repeat: no-repeat;}.overlay-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+font-size: 2rem;}
+        
+
+/* Fullscreen image */.fullscreen-img {
+position: relative;
+height: 100vh; /* Full height of viewport */
+background-image: url('images1.jpg'); /* Image URL */
+background-size: cover;
+background-position: center;
+background-attachment: fixed; /* Parallax effect */}/* Next div covering the image */.content-cover {
+background-color: #f8f9fa;
+padding: 100px 20px;
+height: 100vh;
+z-index: 1;}/* Optional: Styling for the overlay text on the image */.overlay-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+font-size: 2rem;
+font-weight: bold;}
+
+
+/* Fullscreen video */.fullscreen-video {
+position: relative;
+height: 100vh; 
+overflow: hidden;}
+
+/* The video itself */
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+    object-fit: cover; /* Ensure video covers the entire area */
+}
+
+/* Next div covering the video */
+.content-cover {
+    background-color: #f8f9fa;
+    padding: 100px 20px;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+/* Optional: Styling for the overlay text on the video */
+.over-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.x{
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.q{
+    text-align: center;
+}
+
+.row{
+    margin-right:6px;
+    margin-left:6px;
+}
+
+/* Custom navbar style */
+.navbar-custom {
+    padding-left: 0; 
+    padding-right: 0;
+}
+
+.navbar .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-nav.me-auto {
+    margin-left: 0; 
+    padding-left: 0;
+}
+
+.navbar-nav.ms-auto {
+    margin-right: 0;
+    padding-right: 0;
+}

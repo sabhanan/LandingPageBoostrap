@@ -1,0 +1,9 @@
+- card
+- Stretched link
+- drop down
+- modal =Scrolling long content
+- hover text/bottom
+- navbar = External content
+- Offcanvas
+- Toasts
+- Example with list-group
